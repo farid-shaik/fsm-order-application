@@ -1,0 +1,117 @@
+/* Home page  */
+
+/* .home{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+} */
+
+
+body{
+    background-color: lightblue;
+    
+}
+
+/* .sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+} */
+
+
+
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 91.7vh;
+    background-image: url(../images/background1.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.title{
+    text-align: center;
+    padding-top: 20px;
+    color: #CDF71C;
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+}
+
+h1{
+    color: lightblue;
+}
+
+.round-icon {
+    border-radius: 50%;
+    
+}
+
+.footer-bg {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: lightgoldenrodyellow;
+}
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+.welcome {
+    color: lightcoral;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.banner {
+    padding-left: 30px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: lightgreen;
+    
+}
+
+.banner-div {
+    background-color: rgb(248, 252, 252);
+    border: 3px solid blue;
+    width: 198vh;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+/* footer */
+
+.footer{
+    width: 1320px;
+    border-radius: 25px;
+    background-image: linear-gradient(90deg, #ecf0ff 50%, #fff 50%);
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-center{
+    border-radius: 25px;
+}
+
+
+/* navbar */
+
+.logo{
+    margin-left: 20px;
+}
+
+/* signup footer */
+
+
+
